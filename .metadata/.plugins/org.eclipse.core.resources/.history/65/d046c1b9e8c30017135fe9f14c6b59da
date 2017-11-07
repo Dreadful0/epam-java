@@ -1,6 +1,8 @@
-package com.epam.lab1.task3.back;
+package com.epam.lab1.task4.back;
 
-import com.epam.lab1.task3.front.*;
+import java.util.Arrays;
+
+import com.epam.lab1.task4.front.*;
 
 /**
  * @author Viacheslav Demianenko
@@ -19,7 +21,9 @@ public class App {
 	}
 	
 	public void doWork(){		
-		int rowsNumber = input.getNumber();
-		output.printTable(calc.createTable(rowsNumber));
+		int[][] matrix = input.fillMatrix(input.getNumber(), 50);
+		output.printMatrix(matrix);
+		calc.rotateMatrix(matrix);
+		output.printMatrix(matrix);
 	}
 }

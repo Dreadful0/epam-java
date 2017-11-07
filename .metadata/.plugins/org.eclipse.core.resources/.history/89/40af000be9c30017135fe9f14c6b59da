@@ -17,7 +17,8 @@ public class App {
 	}
 	
 	public void doWork(){
-		MyNumber number = new MyNumber(input.getNumber());
+		int temp = input.generateDecimalNumber(100);
+		MyNumber number = new MyNumber(temp);
 		output.print(number);
 		output.print(number.transform(2));
 		output.print(number.transform(8));
