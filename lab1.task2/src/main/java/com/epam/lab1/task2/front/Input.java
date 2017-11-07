@@ -32,6 +32,7 @@ public class Input {
 	
 	public int getNumber(){
 		Integer number;
+		System.out.println("Input the number:");
 		do {
 			number = readNumber();
 		} while (number == null || !validate(number));
