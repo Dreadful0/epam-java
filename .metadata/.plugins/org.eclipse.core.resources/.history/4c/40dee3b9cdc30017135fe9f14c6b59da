@@ -1,0 +1,50 @@
+package com.epam.lab1.task1.back;
+
+import java.util.Arrays;
+
+public class MyNumber {
+
+	private int[] data;
+	private int notation;
+	private int decimalNumber;
+
+	public MyNumber() {
+	}
+
+	public MyNumber(int decimalNumber) {
+		this.decimalNumber = decimalNumber;
+		notation = 10;
+	}
+
+	public int[] getData() {
+		return data;
+	}
+
+	public void setDecimalNumber(int decimalNumber) {
+		this.decimalNumber = decimalNumber;
+		data = null;
+		notation = 10;
+	}
+
+	public int getNotation() {
+		return notation;
+	}
+	
+	public int getDecimalNumber() {
+		return decimalNumber;
+	}
+
+	public MyNumber transform(int notation) {
+		this.notation = notation;
+		int[] buffer = new int[100];
+		int numberOfBits;
+		int tempDecimalNumber = decimalNumber;
+		for (numberOfBits = 0; tempDecimalNumber != 0; numberOfBits++) {
+			int temp = tempDecimalNumber % notation;
+			buffer[numberOfBits] = temp;
+			tempDecimalNumber /= notation;
+		}
+		data = Arrays.copyOf(buffer, numberOfBits);
+		return this;
+	}
+}
