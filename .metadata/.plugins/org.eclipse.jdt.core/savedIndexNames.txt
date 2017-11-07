@@ -1,4 +1,0 @@
-INDEX VERSION 1.127+C:\Users\Dreadful\Documents\GitHub\epam-java\.metadata\.plugins\org.eclipse.jdt.core
-909398086.index
-3627692394.index
-2940011004.index
