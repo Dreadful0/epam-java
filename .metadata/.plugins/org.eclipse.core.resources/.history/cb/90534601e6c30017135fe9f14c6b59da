@@ -48,6 +48,6 @@ public class Input {
 				matrix[i][j] = rn.nextInt(limit*2)-limit;
 			}
 		}
-		return matrix;
+		return null;
 	}
 }

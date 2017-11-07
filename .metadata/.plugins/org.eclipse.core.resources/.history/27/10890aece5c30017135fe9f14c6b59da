@@ -43,11 +43,11 @@ public class Input {
 	public int[][] fillMatrix(int rowsNumber, int limit){
 		Random rn = new Random();
 		int[][] matrix = new int[rowsNumber][rowsNumber];
-		for (int i = 0; i < rowsNumber; i++) {
-			for (int j = 0; j < rowsNumber; j++) {
-				matrix[i][j] = rn.nextInt(limit*2)-limit;
+		for (int[] is : matrix) {
+			for (int i : is) {
+				i = rn.nextInt(100)-50;
 			}
 		}
-		return matrix;
+		return null;
 	}
 }

@@ -21,9 +21,7 @@ public class App {
 	}
 	
 	public void doWork(){		
-		int[][] matrix = input.fillMatrix(input.getNumber(), 50);
-		output.printMatrix(matrix);
-		calc.rotateMatrix(matrix);
-		output.printMatrix(matrix);
+		int rowsNumber = input.getNumber();
+		
 	}
 }

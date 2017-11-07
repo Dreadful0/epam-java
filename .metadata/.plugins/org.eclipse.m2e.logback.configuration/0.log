@@ -606,3 +606,87 @@
 2017-11-07 19:55:57,845 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\main\resources
 2017-11-07 19:55:57,853 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-11-07 19:55:57,854 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\test\resources
+2017-11-07 19:58:12,131 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 19:58:12,131 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\main\resources
+2017-11-07 19:58:12,132 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 19:58:12,132 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\test\resources
+2017-11-07 19:58:47,472 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 19:58:47,480 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\main\resources
+2017-11-07 19:58:47,488 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 19:58:47,488 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\test\resources
+2017-11-07 20:02:38,289 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:02:38,289 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\main\resources
+2017-11-07 20:02:38,290 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:02:38,291 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\test\resources
+2017-11-07 20:03:14,200 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:03:14,200 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\main\resources
+2017-11-07 20:03:14,207 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:03:14,207 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\test\resources
+2017-11-07 20:03:43,385 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:03:43,385 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\main\resources
+2017-11-07 20:03:43,387 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:03:43,387 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\test\resources
+2017-11-07 20:03:49,142 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:03:49,149 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\main\resources
+2017-11-07 20:03:49,156 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:03:49,156 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\test\resources
+2017-11-07 20:05:20,925 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:05:20,925 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\main\resources
+2017-11-07 20:05:20,927 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:05:20,927 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\test\resources
+2017-11-07 20:05:44,573 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:05:44,579 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\main\resources
+2017-11-07 20:05:44,586 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:05:44,586 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\test\resources
+2017-11-07 20:05:53,677 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:05:53,677 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\main\resources
+2017-11-07 20:05:53,678 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:05:53,679 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\test\resources
+2017-11-07 20:06:45,548 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:06:45,555 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\main\resources
+2017-11-07 20:06:45,562 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:06:45,562 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\test\resources
+2017-11-07 20:07:29,161 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:07:29,161 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\main\resources
+2017-11-07 20:07:29,161 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:07:29,162 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\test\resources
+2017-11-07 20:08:15,165 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:08:15,166 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\main\resources
+2017-11-07 20:08:15,174 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:08:15,174 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\test\resources
+2017-11-07 20:09:26,909 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:09:26,909 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\main\resources
+2017-11-07 20:09:26,910 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:09:26,910 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\test\resources
+2017-11-07 20:10:40,492 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:10:40,501 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\main\resources
+2017-11-07 20:10:40,511 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:10:40,512 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\test\resources
+2017-11-07 20:12:25,731 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:12:25,731 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\main\resources
+2017-11-07 20:12:25,732 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:12:25,732 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\test\resources
+2017-11-07 20:13:06,602 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:13:06,613 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\main\resources
+2017-11-07 20:13:06,627 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:13:06,627 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\test\resources
+2017-11-07 20:17:07,382 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:17:07,383 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\main\resources
+2017-11-07 20:17:07,384 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:17:07,384 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\test\resources
+2017-11-07 20:17:56,315 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:17:56,323 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\main\resources
+2017-11-07 20:17:56,331 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:17:56,332 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\test\resources
+2017-11-07 20:18:34,099 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:18:34,099 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\main\resources
+2017-11-07 20:18:34,100 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:18:34,100 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\test\resources
+2017-11-07 20:20:55,217 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:20:55,226 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\main\resources
+2017-11-07 20:20:55,235 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:20:55,235 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\test\resources
+2017-11-07 20:21:13,050 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:21:13,051 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\main\resources
+2017-11-07 20:21:13,052 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 20:21:13,052 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dreadful\Documents\GitHub\epam-java\lab1.task4\src\test\resources

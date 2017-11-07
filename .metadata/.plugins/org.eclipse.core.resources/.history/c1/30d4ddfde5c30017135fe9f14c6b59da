@@ -45,9 +45,9 @@ public class Input {
 		int[][] matrix = new int[rowsNumber][rowsNumber];
 		for (int i = 0; i < rowsNumber; i++) {
 			for (int j = 0; j < rowsNumber; j++) {
-				matrix[i][j] = rn.nextInt(limit*2)-limit;
+				
 			}
 		}
-		return matrix;
+		return null;
 	}
 }

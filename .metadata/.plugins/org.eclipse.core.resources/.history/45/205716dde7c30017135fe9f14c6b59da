@@ -1,0 +1,30 @@
+package com.epam.lab1.task4.back;
+
+import java.util.Arrays;
+
+/**
+ * @author Viacheslav Demianenko
+ *
+ */
+public class Calculation {
+
+	public Calculation() {
+	}
+	
+	public int[][] rotateMatrix(int[][] matrix){
+		int m=0;
+		 for (int i=0; i<m/2; i++) // border -> center
+	        {
+	            for (int j=i; j<m-1-i; j++) // left -> right
+	            {
+	                // меняем местами 4 угла
+	                int tmp         = A[i][j];
+	                A[i][j]         = A[j][m-1-i];
+	                A[j][m-1-i]     = A[m-1-i][m-1-j];
+	                A[m-1-i][m-1-j] = A[m-1-j][i];
+	                A[m-1-j][i]     = tmp;
+	            }
+	        }
+		return null;
+	}
+}
