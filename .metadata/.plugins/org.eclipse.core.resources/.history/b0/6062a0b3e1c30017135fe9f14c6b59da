@@ -22,6 +22,8 @@ public class App {
 	
 	public void doWork(){		
 		int rowsNumber = input.getNumber();
-		output.printTable(calc.createTable(rowsNumber));
+		for (int i = 0; i < rowsNumber; i++) {
+			output.printRow(calc.createRow(i));
+		}
 	}
 }

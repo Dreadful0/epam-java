@@ -22,10 +22,8 @@ public class Calculation {
 	}
 	
 	public int[][] createTable(int rowsNumber){
-		int[][] table = new int[rowsNumber][];
 		for (int i = 0; i < rowsNumber; i++) {
-			table[i] = createRow(i);
+			output.printRow(calc.createRow(i));
 		}
-		return table;
 	}
 }

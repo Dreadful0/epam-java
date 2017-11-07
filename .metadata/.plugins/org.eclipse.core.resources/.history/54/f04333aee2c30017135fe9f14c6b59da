@@ -11,7 +11,7 @@ public class Output {
 	
 	public void printTable(int[][] table){
 		for (int i = 0; i < table.length; i++) {
-			for (int j = 0; j < table[table.length-1-i].length/2; j++) {
+			for (int j = 0; j < table[table.length].length/2; j++) {
 				System.out.print(" ");
 			}
 			for (int j = 0; j < table[i].length; j++) {

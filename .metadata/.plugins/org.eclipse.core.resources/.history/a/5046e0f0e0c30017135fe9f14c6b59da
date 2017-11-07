@@ -21,7 +21,7 @@ public class App {
 	}
 	
 	public void doWork(){		
-		int rowsNumber = input.getNumber();
-		output.printTable(calc.createTable(rowsNumber));
+		//System.out.println("hello");
+		calc.createRow(4);
 	}
 }
