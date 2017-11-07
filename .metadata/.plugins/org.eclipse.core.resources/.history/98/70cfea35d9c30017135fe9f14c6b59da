@@ -1,7 +1,5 @@
 package com.epam.lab1.task2.back;
 
-import java.util.Arrays;
-
 import com.epam.lab1.task2.front.*;
 
 /**
@@ -17,11 +15,9 @@ public class App {
 	public App() {
 		input = new Input();
 		output = new Output();
-		calc = new Calculation();
 	}
 	
 	public void doWork(){		
-		//System.out.println(input.getNumber());
-		System.out.println(Arrays.toString(calc.getPerfectNumbers(input.getNumber())));
+		System.out.println(input.getNumber());
 	}
 }

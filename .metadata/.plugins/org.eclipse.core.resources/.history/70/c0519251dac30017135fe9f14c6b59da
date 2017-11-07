@@ -6,7 +6,4 @@ package com.epam.lab1.task2.front;
  */
 public class Output {
 
-	public Output() {
-	}
-	
 }
