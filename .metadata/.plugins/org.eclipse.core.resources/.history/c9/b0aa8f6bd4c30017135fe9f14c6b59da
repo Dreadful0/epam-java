@@ -1,0 +1,35 @@
+package com.epam.lab1.task2.front;
+
+import java.util.Scanner;
+
+/**
+ * @author Viacheslav Demianenko
+ *
+ */
+public class Input {
+
+	public Input() {
+	}
+	
+	private Integer readNumber() {
+		Scanner in = new Scanner(System.in);
+		Integer number = null;
+		number = in.nextInt();
+		return number;
+	}
+	
+	private boolean validate(int number) {
+		if(number >= 0) {
+			return true;
+		}
+		return false;
+	}
+	
+	public Integer getNumber(){
+		int number = readNumber();
+		if(validate(number)){
+			return number;
+		}
+		return null;
+	}
+}
