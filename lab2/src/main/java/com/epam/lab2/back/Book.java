@@ -124,4 +124,11 @@ public class Book {
 		return true;
 	}
 
+	@Override
+	public String toString() {
+		return "Book [name=" + name + ", author=" + author + ", publisher="
+				+ publisher + ", year=" + year + ", sheetsNumber="
+				+ sheetsNumber + ", price=" + price + "]";
+	}
+
 }

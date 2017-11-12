@@ -58,7 +58,8 @@ public class BookContainer {
 		return Arrays.copyOf(buffer, resultLength);	
 	}
 	
-	public Book[] getBooksByYear(int from, int to){
+	public Book[] getBooksByYear(Integer from, Integer to){
+		if(from == null || to == null) return new Book[0];
 		Book[] buffer = new Book[books.length];
 		int resultLength = 0;
 		for(int i=0;i<booksNumber;i++){
