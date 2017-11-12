@@ -13,6 +13,7 @@ public class BookContainer {
 	private int booksNumber;	
 	
 	public BookContainer() {
+		books = new Book[100];
 	}
 	
 	public BookContainer(int size){
