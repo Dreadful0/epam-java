@@ -1,5 +1,12 @@
 package com.epam.lab2.back;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
+/**
+ * @author Viacheslav Demianenko
+ *
+ */
 public class BookContainer {
 
 	private Book[] books;
@@ -11,31 +18,65 @@ public class BookContainer {
 	public BookContainer(int size){
 		books = new Book[size];
 	}
-
-	public BookContainer(Book[] books, int booksNumber) {
-		this.books = books;
-		this.booksNumber = booksNumber;
-	}
 	
 	public void addBook(Book book){
-		books[booksNumber] = book;
-		booksNumber ++;
-	}
-
-	public Book[] getBooks() {
-		return books;
-	}
-
-	public void setBooks(Book[] books) {
-		this.books = books;
+		try {
+			books[booksNumber] = book;
+			booksNumber ++;
+		} catch (IndexOutOfBoundsException e) {
+			System.err.println("Can not add new book, container full");
+		}
 	}
 
 	public int getBooksNumber() {
 		return booksNumber;
 	}
-
-	public void setBooksNumber(int booksNumber) {
-		this.booksNumber = booksNumber;
+	
+	public Book[] getBooks() {
+		return Arrays.copyOf(books, booksNumber);
 	}
 	
+	public Book[] getBooksByAuthor(String author){
+		Book[] buffer = new Book[books.length];
+		int resultLength = 0;
+		for(int i=0;i<booksNumber;i++){
+			if(books[i].getAuthor().equals(author)){
+				buffer[resultLength++] = books[i];
+			}
+		}		
+		return Arrays.copyOf(buffer, resultLength);
+	}
+	
+	public Book[] getBooksByPublisher(String publisher){
+		Book[] buffer = new Book[books.length];
+		int resultLength = 0;
+		for(int i=0;i<booksNumber;i++){
+			if(books[i].getPublisher().equals(publisher)){
+				buffer[resultLength++] = books[i];
+			}
+		}		
+		return Arrays.copyOf(buffer, resultLength);	
+	}
+	
+	public Book[] getBooksByYear(int from, int to){
+		Book[] buffer = new Book[books.length];
+		int resultLength = 0;
+		for(int i=0;i<booksNumber;i++){
+			if(books[i].getYear()>from && books[i].getYear()<to){
+				buffer[resultLength++] = books[i];
+			}
+		}		
+		return Arrays.copyOf(buffer, resultLength);	
+	}
+	
+	public Book[] getBooksSortedByPublisher(){
+		Book[] result = Arrays.copyOf(books, booksNumber);
+		Arrays.sort(result, new Comparator<Book>() {
+
+			public int compare(Book arg0, Book arg1) {
+				return arg0.getPublisher().compareTo(arg1.getPublisher());
+			}
+		});
+		return result;
+	}
 }

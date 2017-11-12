@@ -1,5 +1,9 @@
 package com.epam.lab2.back;
 
+/**
+ * @author Viacheslav Demianenko
+ *
+ */
 public class Book {
 
 	private String name;
