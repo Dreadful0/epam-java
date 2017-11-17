@@ -32,6 +32,10 @@ public class testTemperatureConverter {
 	public static Collection<Object[]> getTestData(){
 		return Arrays.asList(new Object[][]{
 				{0, 273.2, 32},
+				{-17.78, 255.37, 0},
+				{-273, 0.15, -459},
+				{15, 288.15 , 59},
+				{-26.11, 247.04, -15}
 		});
 	}
 	
@@ -58,32 +62,32 @@ public class testTemperatureConverter {
 
 	@Test
 	public void testConvertFtoC() {
-		assertEquals(celsius, conv.convertFtoC(fahrenheit), 0.1);
+		assertEquals(celsius, conv.convertFtoC(fahrenheit), 0.5);
 	}
 
 	@Test
 	public void testConvertCtoF() {
-		assertEquals(fahrenheit, conv.convertCtoF(celsius), 0.1);
+		assertEquals(fahrenheit, conv.convertCtoF(celsius), 0.5);
 	}
 
 	@Test
 	public void testConvertCtoK() {
-		assertEquals(kelvin, conv.convertCtoK(celsius), 0.1);
+		assertEquals(kelvin, conv.convertCtoK(celsius), 0.5);
 	}
 
 	@Test
 	public void testConvertKtoC() {
-		assertEquals(celsius, conv.convertKtoC(kelvin), 0.1);
+		assertEquals(celsius, conv.convertKtoC(kelvin), 0.5);
 	}
 
 	@Test
 	public void testConvertFtoK() {
-		assertEquals(kelvin, conv.convertFtoK(fahrenheit), 0.1);
+		assertEquals(kelvin, conv.convertFtoK(fahrenheit), 0.5);
 	}
 
 	@Test
 	public void testConvertKtoF() {
-		assertEquals(fahrenheit, conv.convertKtoF(kelvin), 0.1);
+		assertEquals(fahrenheit, conv.convertKtoF(kelvin), 0.5);
 	}
 
 }
