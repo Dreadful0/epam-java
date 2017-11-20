@@ -1,6 +1,6 @@
 package com.epam.lab2.start;
 
-import com.epam.lab2.back.App;
+import com.epam.lab2.controller.App;
 
 /**
  * Hello world!

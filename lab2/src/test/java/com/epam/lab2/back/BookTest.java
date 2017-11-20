@@ -1,5 +1,7 @@
 package com.epam.lab2.back;
 
+import com.epam.lab2.model.Book;
+
 import junit.framework.TestCase;
 
 public class BookTest extends TestCase {

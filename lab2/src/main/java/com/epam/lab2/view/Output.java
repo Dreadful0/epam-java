@@ -1,8 +1,8 @@
-package com.epam.lab2.front;
+package com.epam.lab2.view;
 
 import java.io.IOException;
 
-import com.epam.lab2.back.Book;
+import com.epam.lab2.model.Book;
 
 /**
  * @author Viacheslav Demianenko

@@ -1,4 +1,4 @@
-package com.epam.lab2.back;
+package com.epam.lab2.model;
 
 import java.util.Arrays;
 import java.util.Comparator;

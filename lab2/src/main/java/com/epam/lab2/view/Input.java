@@ -1,10 +1,10 @@
-package com.epam.lab2.front;
+package com.epam.lab2.view;
 
 import java.util.Random;
 import java.util.Scanner;
 
-import com.epam.lab2.back.Book;
-import com.epam.lab2.back.BookContainer;
+import com.epam.lab2.model.Book;
+import com.epam.lab2.model.BookContainer;
 
 /**
  * @author Viacheslav Demianenko

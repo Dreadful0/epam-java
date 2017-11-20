@@ -1,6 +1,7 @@
-package com.epam.lab2.back;
+package com.epam.lab2.controller;
 
-import com.epam.lab2.front.*;
+import com.epam.lab2.model.BookContainer;
+import com.epam.lab2.view.*;
 
 /**
  * @author Viacheslav Demianenko

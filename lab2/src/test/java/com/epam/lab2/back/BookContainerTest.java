@@ -1,5 +1,8 @@
 package com.epam.lab2.back;
 
+import com.epam.lab2.model.Book;
+import com.epam.lab2.model.BookContainer;
+
 import junit.framework.TestCase;
 
 /**
