@@ -43,25 +43,25 @@ public class Input {
 	}
 	
 	public Integer readNumber() {
-		System.out.println("Please input the number:");
+		System.out.println(IInfo.NumberInputString);
 		Scanner in = new Scanner(System.in);
 		Integer number = null;
 		try {
 			number = in.nextInt();
 		} catch (Exception e) {
-			System.err.println("Invalid input");
+			System.err.println(IInfo.ErrorInputString);
 		}
 		return number;
 	}
 	
 	public String readString() {
-		System.out.println("Please input the string:");
+		System.out.println(IInfo.StringInputString);
 		Scanner in = new Scanner(System.in);
 		String str = null;
 		try {
 			str = in.nextLine();
 		} catch (Exception e) {
-			System.err.println("Invalid input");
+			System.err.println(IInfo.ErrorInputString);
 		}
 		return str;
 	}

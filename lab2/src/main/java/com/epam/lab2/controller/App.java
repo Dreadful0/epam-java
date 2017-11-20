@@ -31,28 +31,28 @@ public class App {
 				continue;
 			}
 			switch (choosen) {
-			case 1:
+			case IInfo.GetBooksByAuthorNumber:
 				String author = input.getTestAuthor();
 				output.printString(author);
 				output.printBooks(container.getBooksByAuthor(author));
 				output.printSubMenu();
 				choosen = input.readNumber();
 				break;
-			case 2:
+			case IInfo.GetBooksByPublisherNumber:
 				String publisher = input.getTestPublisher();
 				output.printString(publisher);
 				output.printBooks(container.getBooksByPublisher(publisher));
 				output.printSubMenu();
 				choosen = input.readNumber();
 				break;
-			case 3:
+			case IInfo.GetBooksPublishedAfterNumber:
 				int year = input.getTestYear();
 				output.printString(""+year);
 				output.printBooks(container.getBooksByYear(year,Integer.MAX_VALUE));
 				output.printSubMenu();
 				choosen = input.readNumber();
 				break;
-			case 4:
+			case IInfo.SortBooksByPublisherNumber:
 				output.printBooks(container.getBooksSortedByPublisher());
 				output.printSubMenu();
 				choosen = input.readNumber();
@@ -60,7 +60,7 @@ public class App {
 			default:
 				break;
 			}
-		} while (choosen!=5);
+		} while (choosen!=IInfo.ExitNumber);
 	}
 
 }

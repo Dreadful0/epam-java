@@ -14,18 +14,18 @@ public class Output {
 	}
 	
 	public void printMainManu(){
-		System.out.println("---Main menu---");
-		System.out.println("1) Get books by author");
-		System.out.println("2) Get books by publisher");
-		System.out.println("3) Get books that was published after some year");
-		System.out.println("4) Sort books by publisher");
-		System.out.println("5) Close program");
+		System.out.println(IInfo.MainMenuTitle);
+		System.out.println(IInfo.GetBooksByAuthorNumber+IInfo.GetBooksByAuthorString);
+		System.out.println(IInfo.GetBooksByPublisherNumber+IInfo.GetBooksByPublisherString);
+		System.out.println(IInfo.GetBooksPublishedAfterNumber+IInfo.GetBooksPublishedAfterString);
+		System.out.println(IInfo.SortBooksByPublisherNumber+IInfo.SortBooksByPublisherString);
+		System.out.println(IInfo.ExitNumber+IInfo.ExitString);
 	}
 	
 	public void printSubMenu(){
-		System.out.println("---Sub menu---");
-		System.out.println("Any number) Back");
-		System.out.println("5) Close program");
+		System.out.println(IInfo.SubMenuTitle);
+		System.out.println(IInfo.BackString);
+		System.out.println(IInfo.ExitNumber+IInfo.ExitString);
 	}
 	
 	public void clearOut(){
@@ -36,14 +36,14 @@ public class Output {
 
 	public void printBooks(Book[] books){
 		if(books.length == 0){
-			System.out.println("data is empty");
+			System.out.println(IInfo.NoDataString);
 			return;
 		}
-		System.out.println("-------------------------------------------");
+		System.out.println(IInfo.Delimeter);
 		for (Book book : books) {
 			System.out.println(book);
 		}
-		System.out.println("-------------------------------------------");
+		System.out.println(IInfo.Delimeter);
 	}
 	
 	public void printString(String str){
