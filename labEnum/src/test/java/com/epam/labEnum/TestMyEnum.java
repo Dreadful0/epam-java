@@ -14,7 +14,7 @@ public class TestMyEnum {
 		One, Two, Three
 	}
 	
-	MyEnum my;
+	MyEnum numbers;
 	
 	public TestMyEnum() {
 	}
@@ -29,7 +29,7 @@ public class TestMyEnum {
 
 	@Before
 	public void setUp() throws Exception {
-		my = new MyEnum("One", "Two", "Three");
+		numbers = new MyEnum("One", "Two", "Three", "Four");
 	}
 
 	@After
@@ -39,8 +39,8 @@ public class TestMyEnum {
 	@Test
 	public void testMyEnum() {
 		
-		assertEquals(my.valueOf("Two").name(), real.valueOf("Two").name());
-		assertEquals(my.values()[2].ordinal(), real.values()[2].ordinal());
+		assertEquals(numbers.valueOf("Two").name(), real.valueOf("Two").name());
+		assertEquals(numbers.values()[2].ordinal(), real.values()[2].ordinal());
 	}
 
 }

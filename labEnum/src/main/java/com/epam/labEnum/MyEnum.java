@@ -1,6 +1,7 @@
 package com.epam.labEnum;
 
 import java.security.InvalidParameterException;
+import java.util.Arrays;
 
 public class MyEnum {
 
@@ -18,7 +19,7 @@ public class MyEnum {
 	}
 
 	public MyEnumNode[] values(){
-		return data;
+		return Arrays.copyOf(data, data.length);
 	}
 	
 	public MyEnumNode valueOf(String name) throws IllegalArgumentException, NullPointerException{
