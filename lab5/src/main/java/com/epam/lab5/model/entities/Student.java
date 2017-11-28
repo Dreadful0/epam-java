@@ -1,5 +1,6 @@
 package com.epam.lab5.model.entities;
 
+import java.text.DateFormat;
 import java.util.Date;
 
 public class Student {
@@ -9,15 +10,25 @@ public class Student {
 	private Date birthday;
 	private int phoneNumber;
 	private String homeAddress;
-	
+
+	public Student() {
+	}
+
 	public Student(String secondName, String firstName, Date birthday,
 			int phoneNumber, String homeAddress) {
-		super();
 		this.secondName = secondName;
 		this.firstName = firstName;
 		this.birthday = birthday;
 		this.phoneNumber = phoneNumber;
 		this.homeAddress = homeAddress;
+	}
+
+	public Student(StudentBuilder studentBuilder) {
+		this.secondName = studentBuilder.secondName;
+		this.firstName = studentBuilder.firstName;
+		this.birthday = studentBuilder.birthday;
+		this.phoneNumber = studentBuilder.phoneNumber;
+		this.homeAddress = studentBuilder.homeAddress;
 	}
 
 	public String getSecondName() {
@@ -112,9 +123,50 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return "Student [secondName=" + secondName + ", firstName=" + firstName
-				+ ", birthday=" + birthday + ", phoneNumber=" + phoneNumber
-				+ ", homeAddress=" + homeAddress + "]";
+		DateFormat df = DateFormat.getDateInstance(DateFormat.SHORT);
+		return "" + secondName + " " + firstName + " " + df.format(birthday) + " "
+				+ phoneNumber + " " + homeAddress;
 	}
-	
+
+	public static class StudentBuilder {
+		private String secondName;
+		private String firstName;
+		private Date birthday;
+		private int phoneNumber;
+		private String homeAddress;
+
+		public StudentBuilder() {
+		}
+
+		public StudentBuilder firstName(String firstName) {
+			this.firstName = firstName;
+			return this;
+		}
+
+		public StudentBuilder secondName(String secondName) {
+			this.secondName = secondName;
+			return this;
+		}
+
+		public StudentBuilder birthday(Date birthday) {
+			this.birthday = birthday;
+			return this;
+		}
+
+		public StudentBuilder phoneNumber(int phoneNumber) {
+			this.phoneNumber = phoneNumber;
+			return this;
+		}
+
+		public StudentBuilder homeAddress(String homeAddress) {
+			this.homeAddress = homeAddress;
+			return this;
+		}
+
+		public Student build() {
+			Student student = new Student(this);
+			return student;
+		}
+	}
+
 }

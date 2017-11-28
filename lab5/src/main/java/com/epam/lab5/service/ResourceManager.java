@@ -1,4 +1,4 @@
-package com.epam.lab5.view;
+package com.epam.lab5.service;
 
 import java.util.Enumeration;
 import java.util.Locale;
