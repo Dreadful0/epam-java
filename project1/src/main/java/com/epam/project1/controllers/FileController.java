@@ -11,7 +11,7 @@ import java.io.ObjectOutputStream;
 
 import org.apache.log4j.Logger;
 
-import com.epam.project1.model.Necklace;
+import com.epam.project1.model.entities.Necklace;
 
 public class FileController {
 

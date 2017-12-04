@@ -55,7 +55,7 @@ public class Output {
 		System.out.println(manager.getString(ADD_GEM_MENU_GEM_TYPE_STRING));
 		for (GemType gemType : GemType.values()) {
 			System.out.println("" + (gemType.ordinal() + 1) + ") "
-					+ gemType.name());
+					+ gemType);
 		}
 	}
 

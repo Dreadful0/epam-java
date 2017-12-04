@@ -1,4 +1,4 @@
-package com.epam.project1.view;
+package com.epam.project1.controllers;
 
 import java.util.Scanner;
 
@@ -12,9 +12,9 @@ import static com.epam.project1.view.IText.*;
  * @author Viacheslav Demianenko
  *
  */
-public class Input {
+public class InputController {
 	
-	static Logger logger = Logger.getLogger(Input.class);
+	static Logger logger = Logger.getLogger(InputController.class);
 	
 	ResourceManager manager = ResourceManager.INSTANCE;
 		

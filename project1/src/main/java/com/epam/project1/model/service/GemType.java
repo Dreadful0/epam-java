@@ -22,4 +22,7 @@ public enum GemType {
 		return distinction;
 	}
 	
+	public String toString(){
+		return this.name()+"("+this.getDistinction().name()+")";
+	}
 }

@@ -1,4 +1,4 @@
-package com.epam.project1.model;
+package com.epam.project1.model.entities;
 
 public class Necklace extends Jewelry {
 

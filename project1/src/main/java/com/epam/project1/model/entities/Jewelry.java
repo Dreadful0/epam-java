@@ -1,11 +1,10 @@
-package com.epam.project1.model;
+package com.epam.project1.model.entities;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-import com.epam.project1.model.entities.Gemstone;
 import com.epam.project1.model.service.comparators.IGemSelector;
 
 public abstract class Jewelry implements Serializable{

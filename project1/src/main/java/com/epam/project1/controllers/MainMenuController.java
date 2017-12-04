@@ -4,14 +4,13 @@ import java.util.Locale;
 
 import org.apache.log4j.Logger;
 
-import com.epam.project1.model.Necklace;
 import com.epam.project1.model.entities.Gemstone;
+import com.epam.project1.model.entities.Necklace;
 import com.epam.project1.model.service.GemTransparency;
 import com.epam.project1.model.service.GemType;
 import com.epam.project1.model.service.comparators.GemOneCtPriceComparator;
 import com.epam.project1.model.service.comparators.GemTransparencySelector;
 import com.epam.project1.service.ResourceManager;
-import com.epam.project1.view.Input;
 import com.epam.project1.view.Output;
 
 import static com.epam.project1.service.ISettings.*;
@@ -22,7 +21,7 @@ public class MainMenuController {
 	static Logger logger = Logger.getLogger(MainMenuController.class);
 	
 	private static Output output = new Output();
-	private static Input input = new Input();
+	private static InputController input = new InputController();
 
 	private Necklace necklace = new Necklace(55);
 	private Integer choosen = null;
