@@ -1,11 +1,15 @@
 package com.epam.lab2.model;
 
+import java.io.Serializable;
+
 /**
  * @author Viacheslav Demianenko
  *
  */
-public class Book {
+public class Book implements Serializable{
 
+	private static final long serialVersionUID = 10220248149163078L;
+	
 	private String name;
 	private String author;
 	private String publisher;

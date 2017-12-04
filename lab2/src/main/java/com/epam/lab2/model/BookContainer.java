@@ -1,5 +1,6 @@
 package com.epam.lab2.model;
 
+import java.io.Serializable;
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -7,8 +8,10 @@ import java.util.Comparator;
  * @author Viacheslav Demianenko
  *
  */
-public class BookContainer {
+public class BookContainer implements Serializable {
 
+	private static final long serialVersionUID = -8180261591704494757L;
+	
 	private Book[] books;
 	private int booksNumber;	
 	

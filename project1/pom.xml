@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.epam</groupId>
-	<artifactId>lab2</artifactId>
+	<artifactId>project1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>lab2</name>
+	<name>project1</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -27,6 +27,5 @@
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
 		</dependency>
-
 	</dependencies>
 </project>

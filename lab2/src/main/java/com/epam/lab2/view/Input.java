@@ -3,8 +3,11 @@ package com.epam.lab2.view;
 import java.util.Random;
 import java.util.Scanner;
 
+import com.epam.lab2.controller.FileController;
 import com.epam.lab2.model.Book;
 import com.epam.lab2.model.BookContainer;
+
+import static com.epam.lab2.view.IInfo.*;
 
 /**
  * @author Viacheslav Demianenko
@@ -18,7 +21,8 @@ public class Input {
 	public Input() {
 	}
 	
-	public void fillTestData(BookContainer container){
+	public boolean fillTestData(){
+		BookContainer container = new BookContainer(20);
 		Book book1 = new Book("1984", "George Orwell", "Amazing Reads", 2014,
 				310, 98.0);
 		Book book2 = new Book("Animal Farm", "George Orwell", "Penguin", 2011,
@@ -40,28 +44,29 @@ public class Input {
 		container.addBook(book5);
 		container.addBook(book6);
 		container.addBook(book7);
+		return FileController.saveFile(container, SAVE_DIRECTORY);
 	}
 	
 	public Integer readNumber() {
-		System.out.println(IInfo.NumberInputString);
+		System.out.println(NumberInputString);
 		Scanner in = new Scanner(System.in);
 		Integer number = null;
 		try {
 			number = in.nextInt();
 		} catch (Exception e) {
-			System.err.println(IInfo.ErrorInputString);
+			System.err.println(ErrorInputString);
 		}
 		return number;
 	}
 	
 	public String readString() {
-		System.out.println(IInfo.StringInputString);
+		System.out.println(StringInputString);
 		Scanner in = new Scanner(System.in);
 		String str = null;
 		try {
 			str = in.nextLine();
 		} catch (Exception e) {
-			System.err.println(IInfo.ErrorInputString);
+			System.err.println(ErrorInputString);
 		}
 		return str;
 	}
