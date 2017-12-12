@@ -23,18 +23,11 @@ public class MainMenuController {
 		int from = input.getInteger();
 		int to = input.getInteger();
 		
-		Random rn = new Random();
-		int[] arr = new int[size];
-		
-		for (int i = 0; i < arr.length; i++) {
-			arr[i] = rn.nextInt(to-from)+from;
-		}
-		
 		List<Integer> list = new LinkedList<>();
 		Set<Integer> set = new HashSet<>();
 		
-		input.fillList(list, arr);
-		input.fillSet(set, arr);
+		input.fillList(list, from, to, size);
+		input.fillSet(set,from, to, size);
 		
 		output.printList(list);
 		output.printSet(set);

@@ -1,6 +1,8 @@
 package com.epam.lab7.task1.controllers;
 
+import java.security.InvalidParameterException;
 import java.util.List;
+import java.util.Random;
 import java.util.Scanner;
 import java.util.Set;
 
@@ -11,16 +13,19 @@ import static com.epam.lab7.task1.view.IText.*;
  *
  */
 public class InputController {
+	
+	Random rn = new Random();
 			
-	public void fillList(List<Integer> list, int[] data){
-		for (int i : data) {
-			list.add(i);
+	public void fillList(List<Integer> list, int from, int to, int size){
+		for (int i = 0; i < size; i++) {
+			list.add(rn.nextInt(to-from)+from);
 		}
 	}
 	
-	public void fillSet(Set<Integer> set, int[] data){
-		for (int i : data) {
-			set.add(i);
+	public void fillSet(Set<Integer> set, int from, int to, int size){
+		if(to-from < size)throw new InvalidParameterException();
+		while(set.size()<size){
+			set.add(rn.nextInt(to-from)+from);
 		}
 	}
 	
