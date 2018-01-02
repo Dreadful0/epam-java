@@ -14,7 +14,7 @@ public class MainMenuController {
 		RedBlackTree<Integer> tree = new RedBlackTree<>();
 		RedBlackTree<Integer>.TreeVisualizer visualizer = tree.new TreeVisualizer();
 		
-		for (int i = 1; i < 19; i++) {
+		for (int i = 0; i < 11; i++) {
 			tree.put(i);
 			
 			System.out.print("step: "+i+" Elements: ");

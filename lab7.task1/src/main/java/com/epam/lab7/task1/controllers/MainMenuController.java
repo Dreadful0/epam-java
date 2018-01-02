@@ -27,7 +27,11 @@ public class MainMenuController {
 		Set<Integer> set = new HashSet<>();
 		
 		input.fillList(list, from, to, size);
-		input.fillSet(set,from, to, size);
+		try {
+			input.fillSet(set,from, to, size);
+		} catch (Exception e) {
+			System.out.println("invalid input");
+		}
 		
 		output.printList(list);
 		output.printSet(set);

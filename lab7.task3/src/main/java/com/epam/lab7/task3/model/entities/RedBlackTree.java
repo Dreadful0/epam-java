@@ -15,13 +15,13 @@ public class RedBlackTree<T extends Comparable<T>> implements Iterable<T> {
 	public void put(T data) {
 
 		root = put(root, data);
-		root.color = Color.Black;
+		root.color = Color.BLACK;
 
 	}
 
 	private Node put(Node node, T data) {
 		if (node == null)
-			return new Node(data, Color.Red, 1);
+			return new Node(data, Color.RED, 1);
 
 		int cmp = data.compareTo(node.data);
 		if (cmp < 0)
@@ -52,13 +52,13 @@ public class RedBlackTree<T extends Comparable<T>> implements Iterable<T> {
 	private boolean isRed(Node node) {
 		if (node == null)
 			return false;
-		return node.color == Color.Red;
+		return node.color == Color.RED;
 	}
 
 	private boolean isBlack(Node node) {
 		if (node == null)
 			return false;
-		return node.color == Color.Black;
+		return node.color == Color.BLACK;
 	}
 
 	private boolean contains(T val) {
@@ -82,11 +82,11 @@ public class RedBlackTree<T extends Comparable<T>> implements Iterable<T> {
 			return;
 
 		if (!isRed(root.left) && !isRed(root.right))
-			root.color = Color.Red;
+			root.color = Color.RED;
 
 		root = delete(root, val);
 		if (root != null)
-			root.color = Color.Black;
+			root.color = Color.BLACK;
 	}
 
 	private Node delete(Node node, T val) {
@@ -135,7 +135,7 @@ public class RedBlackTree<T extends Comparable<T>> implements Iterable<T> {
 		node.left = temp.right;
 		temp.right = node;
 		temp.color = temp.right.color;
-		temp.right.color = Color.Red;
+		temp.right.color = Color.RED;
 		temp.size = node.size;
 		node.size = size(node.left) + size(node.right) + 1;
 		return temp;
@@ -147,7 +147,7 @@ public class RedBlackTree<T extends Comparable<T>> implements Iterable<T> {
 		node.right = temp.left;
 		temp.left = node;
 		temp.color = temp.left.color;
-		temp.left.color = Color.Red;
+		temp.left.color = Color.RED;
 		temp.size = node.size;
 		node.size = size(node.left) + size(node.right) + 1;
 		return temp;
@@ -161,10 +161,10 @@ public class RedBlackTree<T extends Comparable<T>> implements Iterable<T> {
 	}
 
 	private Color getOppositeColor(Color color) {
-		if (color == Color.Black)
-			return Color.Red;
+		if (color == Color.BLACK)
+			return Color.RED;
 		else
-			return Color.Black;
+			return Color.BLACK;
 	}
 
 	// Assuming that node is red and both node.left and node.left.left
@@ -204,14 +204,14 @@ public class RedBlackTree<T extends Comparable<T>> implements Iterable<T> {
 	}
 
 	private enum Color {
-		Red, Black;
+		RED, BLACK;
 	}
 
 	private class Node {
 		private T data;
 		private Node left;
 		private Node right;
-		private Color color = Color.Black;
+		private Color color = Color.BLACK;
 		private int size;
 
 		public Node(T data, Color color, int size) {
