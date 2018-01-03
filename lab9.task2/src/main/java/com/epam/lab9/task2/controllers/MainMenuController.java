@@ -42,6 +42,10 @@ public class MainMenuController {
 		List<String> selectedList = ListProcessor.select(strList, (x)->{
 			return x.startsWith("a");
 		});
+		
+		ListProcessor.convert(selectedList, (x)->{
+			return x.toUpperCase();
+		});
 
 		output.printString("	After: ");
 		output.printArr(selectedArr);
